@@ -30,10 +30,10 @@ JioMoney_IntLibrary.JioMoney_APILibrary.Call_JMPaymentAPI(merchantid, clientid, 
 <pre>JioMoney_IntLibrary.JioMoney_APILibrary.Call_JMCheckPaymentStatusAPI(merchant_id, checksum, request_id, timestamp, tran_ref_no, org_txn_timestamp, version, apiurl);</pre>
 
 # Check refund status - GETREQUESTSTATUS: </br>
-<pre>JioMoney_IntLibrary.JioMoney_APILibrary.Call_JMGetRequestStatusAPI(merchant_id, checksum, mode, "NA", "NA", request_id, timestamp, tran_ref_no, org_txn_timestamp, version, apiurl);</pre>
+<pre>JioMoney_IntLibrary.JioMoney_APILibrary.Call_JMGetRequestStatusAPI(merchant_id, checksum, mode, StartDateTime, EndDateTime, request_id, timestamp, tran_ref_no, org_txn_timestamp, version, apiurl);</pre>
 
 # Check MDR - GETMDR: </br>
-<pre>JioMoney_IntLibrary.JioMoney_APILibrary.Call_JMGetMDRAPI(merchant_id, checksum, mode, "NA", "NA", request_id, timestamp, tran_ref_no, org_txn_timestamp, version, apiurl);</pre>
+<pre>JioMoney_IntLibrary.JioMoney_APILibrary.Call_JMGetMDRAPI(merchant_id, checksum, mode, StartDateTime, EndDateTime, request_id, timestamp, tran_ref_no, org_txn_timestamp, version, apiurl);</pre>
 
 # Check transaction details - GETTRANSACTIONDETAILS: </br>
 <pre>JioMoney_IntLibrary.JioMoney_APILibrary.Call_JMGetTransactionDetailsAPI(merchant_id, checksum, mode, StartDateTime, EndDateTime, request_id, timestamp, tran_ref_no, org_txn_timestamp, version, apiurl);</pre>
